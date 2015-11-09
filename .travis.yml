@@ -9,7 +9,7 @@ addons:
       - libatlas-dev
       - libblas-dev
       - liblapack-dev
-      - python${TRAVIS_PYTHON_VERSION}-dev
+      - gfortran-4.9
 python:
   - "2.7"
   - "3.3"
