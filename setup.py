@@ -28,7 +28,9 @@ setup(
     url='http://example.com/',
     license='LICENSE',
     description='TravisCI configuration excersises',
-    cmdclass = {'test': RunTests},
+    cmdclass = {
+        'test': RunTests
+    },
     install_requires=[
         "numpy",
         "scipy",
@@ -36,5 +38,4 @@ setup(
     tests_require=[
         'pytest',
     ],
-    test_suite="tests",
 )
