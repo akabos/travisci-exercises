@@ -6,9 +6,9 @@ cache:
 addons:
   apt:
     packages:
-      - build-essential
       - libatlas-dev
       - libblas-dev
+      - liblapack-dev
       - python${TRAVIS_PYTHON_VERSION}-dev
 python:
   - "2.7"
